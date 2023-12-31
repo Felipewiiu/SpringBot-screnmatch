@@ -47,6 +47,17 @@ estão presentes na classe Java correspondente.
 O "::" é uma sintaxe especial em Java chamada de "method reference" que permite referenciar um método existente. No
 caso, estamos referenciando o método println da classe System.
 
+Ele é dividido em três partes:
+
++ Seu tipo (nome da classe)
++ Seu delimitador (::)
++ Referência ao método
+
+````
+carroList.stream().filter(c -> c.getAno() > 2000)
+                .forEach(Carro::getPreco);// usando a referência ao método
+````
+
 ## Constantes
 
 As constantes desempenham um papel importante na programação, permitindo que valores fixos e imutáveis sejam armazenados
@@ -94,7 +105,16 @@ Essas operações podem ser divididas em duas categorias:
   permitem
   filtrar, mapear, ordenar, limitar, entre outras transformações nos elementos do Stream.
 
-+ 2 - Operações terminais: são operações que encerram o processamento do Stream e retornam um resultado final, como um valor
-  único, uma lista, um conjunto, ou até mesmo uma ação de saída. Exemplos de operações terminais são ``forEach``, ``collect``,
++ 2 - Operações terminais: são operações que encerram o processamento do Stream e retornam um resultado final, como um
+  valor
+  único, uma lista, um conjunto, ou até mesmo uma ação de saída. Exemplos de operações terminais
+  são ``forEach``, ``collect``,
   ``count``, ``min``, ``max``, entre outras.
+
+## Classe wrapper
+
+A classe wrapper é uma classe que encapsula um tipo primitivo em um objeto. Ela fornece métodos e funcionalidades
+adicionais para trabalhar com esse tipo de dado. Por exemplo, a classe Integer é um wrapper para o tipo primitivo int.
+Ela permite realizar operações como conversão de tipos, comparação e manipulação de valores inteiros de forma mais
+conveniente.
 
