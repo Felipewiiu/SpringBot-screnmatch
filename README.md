@@ -118,3 +118,21 @@ adicionais para trabalhar com esse tipo de dado. Por exemplo, a classe Integer �
 Ela permite realizar operações como conversão de tipos, comparação e manipulação de valores inteiros de forma mais
 conveniente.
 
+## Utilizando um container de dados - Explorando o Optional
+
+A programação Java usa Containers para armazenar, acessar e manipular dados. Um exemplo particularmente útil é o
+Optional - um container especial que pode conter ou não um valor.
+
+O Optional é um único valor de container introduzido no Java 8. Ele pode conter um valor único ou nenhum valor. O
+principal uso do Optional é fornecer um tipo de retorno alternativo quando um método pode não retornar um valor.
+
+Usar null é uma prática comum, mas pode levar a erros como NullPointerException. O Optional ajuda a evitar esses erros
+fornecendo uma maneira mais segura de lidar com valores que podem ou não estar presentes.
+
+## O que é um mapa em java?
+
+Em Java, um mapa é uma estrutura de dados que associa chaves a valores. Ele permite armazenar e recuperar informações
+com base em uma chave específica. No contexto do código apresentado, o mapa é utilizado para associar cada temporada de
+uma série com a média de avaliação correspondente. Isso permite que as avaliações por temporada sejam facilmente
+acessadas e exibidas no aplicativo.
+
