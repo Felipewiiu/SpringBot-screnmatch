@@ -136,3 +136,38 @@ com base em uma chave específica. No contexto do código apresentado, o mapa é
 uma série com a média de avaliação correspondente. Isso permite que as avaliações por temporada sejam facilmente
 acessadas e exibidas no aplicativo.
 
+## Operações com streams
+
+### Intermediárias:
+
+- distinct
+- filter
+- map
+- peek
+- sorted
+- skip
+
+### Short Circuit
+
+- limit
+- skip
+
+### Terminais
+
+- toArray
+- collect
+- count
+- reduce
+- forEach
+- forEachOrdered
+- min
+- max
+- anyMatch
+- allMatch
+- noneMatch
+- findAny
+- findFirst
+ 
+## Diferença entre Collection e List
+
+![collection_vs_list.png](collection_vs_list.png)

@@ -20,6 +20,14 @@ public class ExemploFletmap {
         lista.stream()
                 .forEach(e -> System.out.println(e.getCursos()));
 
+        // Usando o flatMap
+
+        System.out.println("\nUsando o flatMap\n");
+
+        lista.stream()
+                .flatMap(c -> c.getCursos().stream())
+                .forEach(e -> System.out.println(e));
+
 
 
 
