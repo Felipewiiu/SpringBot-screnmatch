@@ -171,3 +171,7 @@ acessadas e exibidas no aplicativo.
 ## Diferença entre Collection e List
 
 ![collection_vs_list.png](collection_vs_list.png)
+
+## Divisão de uma assinatura de um método
+
+![assinaturaMetodo.png](assinaturaMetodo.png)
